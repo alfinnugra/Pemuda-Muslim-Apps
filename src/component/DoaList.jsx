@@ -23,10 +23,11 @@ function DoaList() {
         {
             doa.map((doa, index) => {
                 return (
+                    <>
                     <div key={index}>
                         <div className="titleDoa">
                             <span className='id'>{doa.id}</span>
-                            <h1><a href={`./ViewDoa/${doa.id}`} className='doaName'>{doa.judul}</a></h1>
+                            <h1 className='doaName'>{doa.judul}</h1>
                         </div>
                         <div className="deskripsiDoa">
                             <h1 className='dataArab'>{doa.arab}</h1>
@@ -35,6 +36,7 @@ function DoaList() {
                         </div>
                         <hr />
                     </div>
+                    </>
                 )
             })
         }
