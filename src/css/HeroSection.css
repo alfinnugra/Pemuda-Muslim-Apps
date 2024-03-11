@@ -1,0 +1,56 @@
+.heroSection {
+    padding: 0 10px;
+    color:white;
+    margin: 40px;
+}
+
+.textWelcome {
+    color: #646e8d;
+}
+.textUsername {
+    font-size: 40px;
+}
+
+.cardHero {
+    background-color: #F806CC;
+    padding: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 0;
+}
+
+.alquranImg {
+    width: 15%;
+    opacity: 0.7;
+}
+
+.titleQuran {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .heroSection {
+        padding: 0;
+        color:white;
+        margin: 20px;
+    }
+    
+    .textWelcome {
+        color: #646e8d;
+    }
+    .textUsername {
+        font-size: 30px;
+    }
+
+    .alquranImg {
+        width: 50px;
+        opacity: 0.7;
+    }
+    
+    .titleQuran {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+}

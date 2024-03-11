@@ -1,0 +1,92 @@
+.doaList {
+    margin: 5px 25px 10px;
+    padding: 25px;
+    color: white;
+}
+
+.titleDoa {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.doaName {
+    position: absolute;
+    left: 100px;
+}
+.titleDoa a{
+    text-decoration: none;
+    color: white;
+}
+hr {
+    height: 1px;
+    margin-top: 30px;
+    background-color: #787A91;
+    border: none;
+    margin-top: 30px;
+}
+
+.id {
+    border: 2px solid #6420AA;
+    padding: 10px;
+    border-radius: 15%;
+}
+
+.dataArab {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.latin {
+    color: #FF3EA5;
+    margin-top: 10px;
+}
+
+.terjemah {
+    color: white;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .doaList {
+        padding: 0;
+        color: white;
+    }
+    
+    .titleDoa {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .titleDoa a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .doaName {
+        font-size: 20px;
+    }
+    hr {
+        height: 1px;
+        margin-top: 30px;
+        background-color: #787A91;
+        border: none;
+        margin-top: 30px;
+    }
+
+    .Arab {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .latin {
+        font-size: 20px;
+    }
+
+    .terjemah {
+        font-size: 15px;
+    }
+}

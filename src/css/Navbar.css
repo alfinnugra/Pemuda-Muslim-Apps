@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    padding: 25px;
+    color: white;
+    width: 100%;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+@media screen and (max-width : 768px ) {
+    header {
+        display: flex;
+        padding: 10px;
+        color: white;
+        width: 100%;
+    }
+    
+    .navbar {
+        padding: 10px;
+    }
+}

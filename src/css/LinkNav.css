@@ -1,0 +1,32 @@
+.LinkNav {
+    padding: 0 25px;
+    display: flex;
+    margin:25px;
+    gap: 50px;
+}
+
+.LinkNav a {
+    color:white;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 1px solid white;
+    margin-top: 1px;
+}
+@media screen and (max-width: 768px) {
+    .LinkNav {
+        padding: 0;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .LinkNav a {
+        color:white;
+        text-decoration: none;
+    }
+    
+    .active:after {
+        color: #61F2F5;
+    }
+}
