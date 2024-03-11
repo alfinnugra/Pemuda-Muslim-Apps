@@ -26,7 +26,7 @@ function SurahList() {
                     <div key={index}>
                         <div className="title">
                             <h1><a href={`./ViewSurah/${surah.nomor}`} className='surahName'>{surah.nama_latin}</a></h1>
-                            <h1 className='textsArab'>${surah.nama}</h1>
+                            <h1 className='textsArab'>{surah.nama}</h1>
                         </div>
                         <div className="deskripsi">
                             <span>{surah.arti} | {surah.jumlah_ayat} ayat</span>
