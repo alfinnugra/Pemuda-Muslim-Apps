@@ -1,0 +1,80 @@
+.asmaList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.cardAsma {
+    background-color: white;
+    box-shadow: 0px 12px 40px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 12px 40px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 12px 40px -11px rgba(0,0,0,0.75);
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    line-height: 1.5; /* Menambahkan spasi antarbaris */
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.cardAsma .arabTitle {
+    color: #787A91;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cardAsma .latinText {
+    font-size: 20px;
+    color: #FF3EA5;
+    text-align: center;
+}
+
+.indoText {
+    color: #787A91;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .asmaList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    .cardAsma {
+        background-color: white;
+        box-shadow: 0px 12px 40px -11px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 12px 40px -11px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 12px 40px -11px rgba(0,0,0,0.75);
+        width: 150px;
+        border-radius: 5px;
+        overflow: hidden;
+        line-height: 1.5; /* Menambahkan spasi antarbaris */
+        letter-spacing: 1px;
+        margin: -25px;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+    
+    .cardAsma .arabTitle {
+        color: #787A91;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .cardAsma .latinText {
+        font-size: 15px;
+        color: #FF3EA5;
+        text-align: center;
+    }
+    
+    .indoText {
+        color: #787A91;
+        font-size: 15px;
+        text-align: center;
+    }
+}

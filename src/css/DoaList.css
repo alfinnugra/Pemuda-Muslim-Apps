@@ -1,20 +1,20 @@
-.doaList {
+.asmaList {
     margin: 5px 25px 10px;
     padding: 25px;
     color: white;
 }
 
-.titleDoa {
+.titleAsma {
     margin-top: 20px;
     display: flex;
     justify-content: flex-start;
 }
 
-.doaName {
+.asmaName {
     position: absolute;
     left: 100px;
 }
-.titleDoa a{
+.titleAsma a{
     text-decoration: none;
     color: white;
 }
@@ -32,7 +32,7 @@ hr {
     border-radius: 15%;
 }
 
-.dataArab {
+.arabText {
     color: white;
     font-size: 30px;
     display: flex;
@@ -40,12 +40,12 @@ hr {
     margin-top: 10px;
 }
 
-.latin {
+.latinText {
     color: #FF3EA5;
     margin-top: 10px;
 }
 
-.terjemah {
+.terjemahan {
     color: white;
     font-size: 20px;
 }
