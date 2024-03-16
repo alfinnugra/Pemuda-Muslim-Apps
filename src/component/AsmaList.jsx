@@ -28,7 +28,7 @@ function AsmaList() {
                 return (
                     <>
                    <div className='KartuAsma' key={index}>
-                        <h1 className='TulisanArab'>{asma.arab}</h1>
+                        <h1 className='arabTitle'>{asma.arab}</h1>
                         <h1 className='latinTulisan'>{asma.latin}</h1>
                         <p className='indoText'>{asma.indo}</p>
                    </div>
