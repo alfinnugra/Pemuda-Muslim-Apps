@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
-import '../css/AsmaList.css'
+import '../css/Asma.css'
 
 function AsmaList() {
     const [asma, setAsma] = useState([])
@@ -22,14 +22,14 @@ function AsmaList() {
         getAsma()
     }, [])
   return (
-    <div className="asmaList">
+    <div className="asma">
         {asma.length > 0 ? (
             asma.map((asma, index) => {
                 return (
                     <>
-                   <div className='cardAsma' key={index}>
-                        <h1 className='arabTitle'>{asma.arab}</h1>
-                        <h1 className='latinText'>{asma.latin}</h1>
+                   <div className='KartuAsma' key={index}>
+                        <h1 className='TulisanArab'>{asma.arab}</h1>
+                        <h1 className='latinTulisan'>{asma.latin}</h1>
                         <p className='indoText'>{asma.indo}</p>
                    </div>
                     </>
